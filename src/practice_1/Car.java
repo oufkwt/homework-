@@ -1,4 +1,4 @@
-package practice_2;
+package practice_1;
 
 public class Car {
     //Создание переменных

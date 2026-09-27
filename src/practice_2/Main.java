@@ -2,18 +2,14 @@ package practice_2;
 
 public class Main {
     public static void main(String[] args) {
-        //создаем объект
-        Car impala = new Car("Шевроле", 1956);
+        //создаю объект
+        Rectangle rect = new Rectangle(5,10);
 
-        //изменить сеттером год
-        System.out.println("До изменения:");
-        impala.print();
-        impala.setYear(2020);
-
-        System.out.println("После изменения:");
-        impala.print();
+        //изменить ширину сеттером
+        System.out.println("До изменения: " + rect.calculateArea());
+        rect.calculateArea();
+        rect.setWidth(2);
+        System.out.println("После изменений: " + rect.calculateArea());
+        rect.calculateArea();
     }
-
-
-
 }

@@ -1,4 +1,4 @@
-package practice_23;
+package practice_2;
 
 public class Rectangle {
     private int width;
